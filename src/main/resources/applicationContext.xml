@@ -21,7 +21,8 @@
 		</property>
 		<property name="url">
 			<!-- <value>jdbc:hsqldb:hsql://localhost/testdb</value> -->
-			<value>jdbc:hsqldb:file:C:/temp/hsqldbs/testdb</value>
+			<value>jdbc:hsqldb:file:C:/temp/hsqldbs/testdb</value><!-- works -->
+			<!-- <value>jdbc:hsqldb:mem:mydb</value>  -->  <!-- works but starts on memory -->
 		</property>
 		<property name="username">
 			<value>sa</value>
